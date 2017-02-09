@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "title": "Ightttt",
+      "date": "07-02-2017",
+      "thumbnail": "img/scout-design.png",
+      "description": "This is a test description for the news post",
+      "photos": [
+        {
+          "photo": "img/scout-design.png"
+        },
+        {
+          "photo": "img/picture2.jpg"
+        }
+      ]
+    }
+  ]
+}

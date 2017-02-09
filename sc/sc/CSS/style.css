@@ -1,0 +1,140 @@
+@font-face {
+ font-family: 'TheSerif Bold';
+  src: url(../fonts/TheSerifBoldPlain.ttf);
+}
+@font-face {
+ font-family: 'TheSerif Plain';
+  src: url(../fonts/TheSerifPlain.ttf);
+}
+body,html{
+  margin: 0;
+}
+#nav a{
+  color: white;
+}
+#images{
+  max-height: 400px;
+  position: relative;
+}
+h2{
+  font-family: 'TheSerif Bold'!important;
+  float: left;
+  margin-left: 5%!important;
+}
+#divvy{
+  max-height: 300px!important;
+  padding: 0;
+}
+.item-img{
+  height: 35%;
+  width: 47.5%;
+  background: #757575;
+  margin-right: 5px;
+}
+.first{
+    color: #4d2177;
+    font-family: 'TheSerif Bold';
+}
+i{
+  color: white;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+footer{
+  background: #4d2177;
+  height: 120px;
+  text-align: center;
+  display: inline-block;
+}
+.icons{
+  padding-top: 30px!important;
+}
+.second{
+    color: #84A40B;
+    font-family: 'TheSerif Bold';
+}
+.news-items{
+  height: 100%;
+}
+.owl-item{
+  width: 20%;
+}
+#owl-example{
+  margin-bottom: 5px;
+}
+#owl-example img{
+    width: 100%;
+    margin-left: 0.50%;
+    height: auto;
+}
+#owl-example{
+    width: 100%;
+}
+h5{
+  font-family: 'TheSerif Plain'!important;
+  color: #808080;
+}
+#news-items h5{
+  font-size: 1.1em!important;
+  font-family: 'TheSerif Plain'!important;
+}
+.container{
+  height: 100% !important;
+}
+#section{
+  height: 100%;
+}
+#nav ul{
+    text-align: center;
+    margin-top: 1px;
+    transition: height 0.5s;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#nav{
+    background-color: #4d2177;
+    color: white;
+    transition: height 0.5s;
+    clear: both;
+}
+#nav ul li{
+    display: inline-block;
+    font-family: "TheSerif Plain";
+    font-size: 1.4em;
+    padding: 20px;
+    padding-top: 10px;
+    line-height: 1.4em;
+}
+#nav ul li:hover{
+    background-color: #33164f;
+}
+p{
+  font-family: "TheSerif Plain";
+  font-size: 1.2em;
+  color: #757575;
+}
+.logo{
+  height: 120px;
+  width: auto;
+  float: right;
+  margin-right: 5%;
+}
+header{
+}
+h6{
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+#footer-content{
+  margin-bottom: 0!important;
+}
+img{
+  height: auto;
+  float: left;
+  display: block;
+}
+nav{
+  clear: both;
+  background-color: #4d2177!important;
+}

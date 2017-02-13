@@ -4,6 +4,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
     <link rel=stylesheet type="text/css" href="css/style.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
@@ -12,6 +14,7 @@
       integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
       crossorigin="anonymous">
     </script>
+    <script src="owl-carousel/owl.carousel.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <script src="https://use.fontawesome.com/d4a7fa9098.js"></script>
@@ -28,8 +31,8 @@
     <div id="nav">
             <ul>
                <li><a href="index.html">Home</a></li>
-               <li>Beavers</li>
-               <li>Cubs</li>
+               <li><a href="beavers.html">Beavers</a></li>
+               <li><a href="cubs.html">Cubs</a></li>
                <li><a href="scouts.html">Scouts</a></li>
                <li>Contact</li>
                <li>Links &#38; Information</li>
@@ -39,9 +42,12 @@
         <div id="section">
           <div class="row">
             <div class="col m12" id="images">
-              <img src="img/picture2.jpg">
-              <img src="img/picture3.jpg">
-              <img src="img/picture4.jpg">
+              <div id="owl-example" class="owl-carousel">
+                <div><img src="img/picture2.jpg"></div>
+                <div><img src="img/picture3.jpg"></div>
+                <div><img src="img/picture4.jpg"></div>
+                <div><img src="img/picture2.jpg"></div>
+              </div>
             </div>
           </div>
             <div class="row">
@@ -52,8 +58,10 @@
                      <p>Here you can find information on Beavers, Cubs and Scouts and details of how to join us.</p>
                   </div>
                   <div class="col s12 m6 l4">
-                     <h3><span class="second">HELP NEEDED...</span></h3>
-                     <p>Are you interested in volunteering with 1st Owlsmoor Scout Group? Please click <span class="first">here</span> for more information.</p>
+                     <h3><span class="second">WAITING LIST...</span></h3>
+                     <p>Due to the demand of our popular Beaver and Cub groups, we run a waiting list for those wanting to join the groups. If you would like your child to join, we would suggest that you put their name down as soon as possible to avoid disappointment.</p>
+                     <p>When you request your child to be placed onto the waiting list, you will receive an email back to confirm this, usually within 7 days.</p>
+                     <p>We operate the waiting lists based on how long the child's name has been on the list, not by age, as we find this is the fairest way.</p>
                   </div>
                   <div class="col s12 m6 l4">
                      <h3><span class="first">LATEST NEWS..</span></h3>
@@ -79,9 +87,17 @@
       </div>
  </div>
   <footer>
-    <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
-    <i class="fa fa-camera fa-3x" aria-hidden="true"></i>
-    <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+    <div class="icons">
+      <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-camera fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+   </div>
+   <div class="row" id="footer-content">
+     <div class="col s12 l4"><h6>Development</h6></div>
+     <div class="col s12 l4"><h6>© 1st Owlsmoor Scouts 2017</h6></div>
+     <div class="col s12 l4"><h6>Disclaimer</h6></div>
+   </div>
   </footer>
+  <script src="JS/script.js"></script>
   </body>
 </html>

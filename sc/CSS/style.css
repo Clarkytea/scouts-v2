@@ -46,12 +46,33 @@ footer{
   text-align: center;
   display: inline-block;
 }
+.icons{
+  padding-top: 30px!important;
+}
 .second{
     color: #84A40B;
     font-family: 'TheSerif Bold';
 }
 .news-items{
   height: 100%;
+}
+.owl-item{
+  width: 20%;
+}
+#owl-example{
+  margin-bottom: 5px;
+}
+#owl-example img{
+    width: 100%;
+    margin-left: 0.50%;
+    height: auto;
+}
+#owl-example{
+    width: 100%;
+}
+h5{
+  font-family: 'TheSerif Plain'!important;
+  color: #808080;
 }
 #news-items h5{
   font-size: 1.1em!important;
@@ -79,7 +100,7 @@ footer{
 #nav ul li{
     display: inline-block;
     font-family: "TheSerif Plain";
-    font-size: 1.4em;
+    font-size: 1.6em;
     padding: 20px;
     padding-top: 10px;
     line-height: 1.4em;
@@ -100,8 +121,15 @@ p{
 }
 header{
 }
+h6{
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+#footer-content{
+  margin-bottom: 0!important;
+}
 img{
-  max-width: 33%;
   height: auto;
   float: left;
   display: block;

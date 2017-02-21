@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  //Initialise Carousel and add attributes
   $("#owl-example").owlCarousel({
     items : 3,
     itemsCustom : false,
@@ -19,5 +20,13 @@ $(document).ready(function(){
     autoPlay : true,
     stopOnHover : true,
   });
+
+  //Prevent Default Form handling
+  $("#con-form").submit(function(e){
+    return false;
+  });
+
+  //Initialise Select Drop down button
+  $('select').material_select();
 
 });

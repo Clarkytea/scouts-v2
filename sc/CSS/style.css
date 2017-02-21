@@ -42,9 +42,14 @@ i{
 }
 footer{
   background: #4d2177;
-  height: 120px;
+  min-height: 120px;
   text-align: center;
   display: inline-block;
+}
+footer h6{
+  font-size: 1.4rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .icons{
   padding-top: 30px!important;
@@ -62,6 +67,10 @@ footer{
 #owl-example{
   margin-bottom: 5px;
 }
+.display-img{
+  width:100%;
+  margin-top: 7.5%;
+}
 #owl-example img{
     width: 100%;
     margin-left: 0.50%;
@@ -73,6 +82,7 @@ footer{
 h5{
   font-family: 'TheSerif Plain'!important;
   color: #808080;
+  margin-top: 1.5rem!important;
 }
 #news-items h5{
   font-size: 1.1em!important;
@@ -108,6 +118,10 @@ h5{
 #nav ul li:hover{
     background-color: #33164f;
 }
+#sub-btn{
+  display: block;
+  margin: auto;
+}
 p{
   font-family: "TheSerif Plain";
   font-size: 1.2em;
@@ -128,6 +142,12 @@ h6{
 }
 #footer-content{
   margin-bottom: 0!important;
+}
+footer h6:hover{
+  background: #33164f;
+}
+i{
+  padding:7.5px;
 }
 img{
   height: auto;
